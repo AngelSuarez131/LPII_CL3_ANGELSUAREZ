@@ -9,7 +9,6 @@ import javax.persistence.*;
  * 
  */
 @Entity
-@Table(name="tbl_productocl3")
 @NamedQuery(name="TblProductocl3.findAll", query="SELECT t FROM TblProductocl3 t")
 public class TblProductocl3 implements Serializable {
 	private static final long serialVersionUID = 1L;
